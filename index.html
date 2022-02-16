@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html> 
+<html lang="sv"> 
 <head> 
 
     <title>Exempel 1 navigation bar</title> 
@@ -126,21 +126,31 @@
 
     <div class="div-content">
 
-        <img class="mySlides" src="img/awkward.jpg" style="width: 100%">
+        <img class="mySlides" src="img/green.jpg" alt="green landscape" style="width: 100%">
 
-        <img class="mySlides" src="img/funny man.jpg" style="width: 100%">
+        <img class="mySlides" src="img/purple.jpg" alt="purple landscape" style="width: 100%">
 
-        <img class="mySlides" src="img/japan.jpg" style="width: 100%">
+        <img class="mySlides" src="img/white.jpg" alt="snowy landscape" style="width: 100%">
 
-        <img class="mySlides" src="img/mongolia.jpg" style="width: 100%">
+        <img class="mySlides" src="img/lights.jpg" alt="northern lights" style="width: 100%">
 
-        <img class="mySlides" src="img/tibetiskmunk.jpg" style="width: 100%">
+        <img class="mySlides" src="img/orange.jpg" alt="orange landscape" style="width: 100%">
 
-        <button class="slider-button display-left" onclick="changeImage(-1)">&#129076;</button>
+        <button class="slider-button display-left" onclick="changeImage(-1)">&#8636;</button>
 
-        <button class="slider-button display-right" onclick="changeImage(1)">&#129078;</button>
+        <button class="slider-button display-right" onclick="changeImage(1)">&#8641;</button>
 
+    </div>    
+
+        <!-- Dots -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
     </div>
+
     <script src="js/domjs.js"></script>
 
     <footer class="footer"> 
